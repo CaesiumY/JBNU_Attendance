@@ -52,3 +52,16 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# 회원인증 및 권환 설정을 위한 젬들
+gem 'device' # 회원 가입 및 인증
+gem 'rolify' # 롤 관리
+gem 'authority' # 권한 설정
+
+# 페이지 뷰 깔끔 정리
+gem 'bootstrap-sass'
+gem 'simple_form'
+
+
+gem 'letter_opener', group: :development
+
